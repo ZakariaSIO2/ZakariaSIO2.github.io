@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zakaria Jawadi - Portfolio BTS SIO</title>
+    <meta name="description" content="Portfolio de Zakaria Jawadi, étudiant en BTS SIO SISR à Cholet — projets réseaux, sécurité et administration systèmes." />
+
+    <!-- POLICES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container nav">
+            <a href="#" class="logo">Zakaria Jawadi <span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ===== ACCUEIL ===== -->
+    <section id="accueil">
+        <div class="container hero">
+            <div class="hero-content">
+                <div class="badge">👋 Disponible pour un stage</div>
+                <h1>Je suis <br /><span>Zakaria Jawadi</span></h1>
+                <p>Étudiant en 2ᵉ année de BTS SIO option SISR à l'ESUPEC (Cholet). Passionné par l'administration des systèmes, la configuration réseau et la cybersécurité. Recherche un stage du 11 janvier au 19 février 2027.</p>
+                <div class="hero-actions">
+                    <a href="#projets" class="btn">Voir mes projets</a>
+                    <a href="#contact" class="btn btn--outline">Me contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJETS ===== -->
+    <section id="projets" class="bg-gris">
+        <div class="container">
+            <h2 class="section-title">Mes projets</h2>
+            <p class="section-sub">Une sélection de mes réalisations récentes.</p>
+
+            <div class="projets-grid">
+                <!-- Projet 1 : AP Réseau -->
+                <div class="projet-card">
+                    <div class="thumb">
+                        <img src="https://placehold.co/600x400/1a1a1a/ffffff?text=MedicaPlus" alt="Sécurisation réseau MedicaPlus" />
+                    </div>
+                    <div class="body">
+                        <span class="tag">Réseaux & Sécurité</span>
+                        <h3>Sécurisation réseau — Clinique MedicaPlus</h3>
+                        <p>Modernisation du système d'information d'une clinique : segmentation en VLANs (personnel médical, administratif, patients, serveurs), mise en place d'une DMZ pour le serveur web public, routage dynamique OSPF entre deux routeurs, serveur DHCP par VLAN et filtrage des flux par ACLs. Maquette testée sur Packet Tracer puis déployée sur équipements physiques (projet de groupe, 3 étudiants).</p>
+                    </div>
+                </div>
+
+                <!-- Projet 2 : Administration Windows Server -->
+                <div class="projet-card">
+                    <div class="thumb">
+                        <img src="https://placehold.co/600x400/1a1a1a/ffffff?text=Windows+Server" alt="Administration Windows Server et Active Directory" />
+                    </div>
+                    <div class="body">
+                        <span class="tag">Administration Systèmes</span>
+                        <h3>Administration Windows Server 2022 & Active Directory</h3>
+                        <p>Déploiement d'un serveur Windows 2022 avec AD DS (domaine medoclab.local) : création d'unités d'organisation, groupes et utilisateurs, stratégies de mots de passe et de sécurité (GPO), dossiers personnels et partagés avec gestion fine des permissions, scripts d'ouverture de session, et comparatif de solutions antivirus. Tests de connexion validés sur poste client Windows 11 (projet en binôme).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section id="a-propos">
+        <div class="container a-propos-wrapper">
+            <div class="text">
+                <h2 class="section-title">À propos</h2>
+                <p>Actuellement en 2ᵉ année de BTS Services Informatiques aux Organisations, option SISR (Systèmes et Réseaux), à l'ESUPEC — Lycée Sainte-Marie de Cholet. Après un premier semestre de BTS Comptabilité et Gestion et un Bac Général (langues, littératures et civilisations étrangères, mathématiques, mention section européenne), je me suis réorienté vers l'informatique pour suivre ma passion pour les systèmes et les réseaux.</p>
+                <p>J'aime comprendre comment un réseau est construit et sécurisé de bout en bout : segmentation VLAN, DMZ, routage, ACLs, mais aussi l'administration des systèmes au quotidien (Active Directory, GPO, virtualisation). J'ai également une expérience de terrain chez STCS (Santé Travail Cholet Saumur), où j'assiste les utilisateurs et gère le parc informatique.</p>
+                <p><strong>📌 Disponible pour :</strong> un stage de BTS SIO du 11 janvier au 19 février 2027</p>
+                <a href="#contact" class="btn" style="margin-top:16px;">Me contacter</a>
+            </div>
+            <div class="skills">
+                <h4>⚡ Compétences</h4>
+                <ul>
+                    <li>Administration systèmes (Windows Server, Debian, PowerShell)</li>
+                    <li>Réseaux : VLAN, DMZ, NAT/PAT, ACL, OSPF</li>
+                    <li>Virtualisation & RAID</li>
+                    <li>Active Directory / GPO</li>
+                    <li>Python, Java, C++, HTML/CSS</li>
+                    <li>Word, Excel, PowerPoint</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="bg-gris">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-sub">Une question, un projet ? Écrivons-nous.</p>
+
+            <div class="contact-wrapper" style="margin-top:40px;">
+                <div class="infos">
+                    <p><strong>📧 Email</strong><br /><a href="mailto:zakajawadi47@gmail.com">zakajawadi47@gmail.com</a></p>
+                    <p><strong>📱 Téléphone</strong><br /><a href="tel:+33761828389">+33 7 61 82 83 89</a></p>
+                    <p><strong>📍 Localisation</strong><br />Cholet, France</p>
+                    <p><strong>🔗 Réseaux</strong><br />
+                        <a href="#">LinkedIn</a> · <a href="#">GitHub</a>
+                    </p>
+                </div>
+
+                <form action="https://formspree.io/f/TON_ID_ICI" method="POST">
+                    <input type="text" name="nom" placeholder="Ton nom" required />
+                    <input type="email" name="email" placeholder="Ton email" required />
+                    <input type="text" name="sujet" placeholder="Sujet" />
+                    <textarea name="message" placeholder="Parle-moi de ton projet..." required></textarea>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+            <p>&copy; 2026 Zakaria Jawadi · Fait avec <span style="color:var(--accent);">❤</span></p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
